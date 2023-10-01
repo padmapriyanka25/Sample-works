@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="eng">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+        
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+            } // End if
+        });
+        });
+        </script>
+        <title>padma's Coffee Shop</title>
+        <link rel="stylesheet" href="coffee.css" />
+    </head>
+    <body>
+        <main>
+            <img src="https://freepngimg.com/thumb/coffee/33957-5-coffee-logo-transparent-background.png"/>                
+                    
+            <h1>Coffee Shop</h1>
+            <a href="#menu">Menu</a>
+            <a href="#special">Special</a>
+            <a href="#contactus">Contact Us</a>
+            <div class="topnav">
+                <form>
+                    <input type="text" placeholder="Search..">
+                    <button type="submit">Submit</button>
+                </form>
+
+            </div>
+
+            <div class="box"> 
+
+                
+                <div class="welcome">
+                    <img src="https://ae01.alicdn.com/kf/HTB1opoZKpXXXXaOaXXXq6xXFXXX0/Custom-photo-Silk-3D-wallpaper-for-walls-3-D-coffee-shop-break-room-hotel-cafe-TV.jpg">
+                    <div class="bullets">. . . .</div>
+                </div>
+
+                <div class="name" id="menu"><h1>Menu</h1></div>
+
+                <div class="line1">
+                    <img src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTiCxXcyNxBKgWT2_t-TQQ_DTFFEnfQz9p1OT5WTg4vaJ4eUE_OPh6Vvd4qxWJop6-w">
+                    
+                    <div class="name">Cappuccino___Rs.120</div>
+                </div>
+
+                <div class="line1">
+                    <img src="https://i0.wp.com/naivo.in/storage/2021/08/product-image-2.png?w=1170&ssl=1">
+                    <div class="name">Espresso___Rs.120</div>
+                </div>
+
+                <div class="line1">
+                    <img src="https://www.craftcoffeeguru.com/wp-content/uploads/2019/02/americano-9.jpg?x53584">
+                    <div class="name">Americanno___Rs.120</div>
+                </div>
+
+
+                <div class="line1">
+                    <img src="https://ezj4bun7qv8.exactdn.com/wp-content/uploads/2021/08/Latte-2.jpg?strip=all&lossy=1&w=516&ssl=1">
+                    <div class="name">Latte macchiato___Rs.120</div>
+                </div>
+
+                <div class="line1">
+                    <img src="https://www.foodandwine.com/thmb/BzAPlKJh_Rg8bMsyBzTtFLqEqn8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Partners-Flat-White-FT-BLOG0523-b11f6273c2d84462954c2163d6a1076d.jpg">
+                    <div class="name">Flat White___Rs.120</div>
+                </div>
+
+                <div class="line1">
+                    <img src="https://whitehorsecoffee.com.au/cdn/shop/articles/unnamed-6.jpg?v=1680243596">
+                    <div class="name">Long black___Rs.120</div>
+                </div>
+
+
+                <div class="line1">
+                    <img src="https://coffeeaffection.com/wp-content/uploads/2019/10/irish-coffee-5.webp">
+                    <div class="name">Irish coffee___Rs.120</div>
+                </div>
+
+                <div class="line1">
+                    <img src="https://th.bing.com/th/id/OIP.YbEM5AsL8rG9aZqePDsolQHaFP?pid=ImgDet&rs=1">
+                    <div class="name">Cold brew___Rs.120</div>
+                </div>
+
+                <div class="line1">
+                    <img src="https://coffeeaffection.com/wp-content/uploads/2020/01/mocha-latte-garnished-scaled-e1582558737633.jpeg">
+                    <div class="name">Mocha___Rs.120</div>
+                </div>
+            </div>
+
+            <div class="box1">
+                <div>
+                <div class="name" id="special"><h1>Special</h1></div>
+                </div>
+                <div class="line1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY2scBRGgSl2geq1_n_Cuse9qk38_Ghkpyjg&usqp=CAU">
+                    <div class="name">Espresso Shots___Rs.120</div>
+                </div>
+                <div class="line1">
+                    <img src="https://www.craftcoffeeguru.com/wp-content/uploads/2019/02/americano-9.jpg?x53584">
+                    <div class="name">Americanno___Rs.120</div>
+                </div>
+                <div class="line1">
+                    <img src="https://www.foodandwine.com/thmb/BzAPlKJh_Rg8bMsyBzTtFLqEqn8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Partners-Flat-White-FT-BLOG0523-b11f6273c2d84462954c2163d6a1076d.jpg">
+                    <div class="name">Flat White___Rs.120</div>
+                </div>
+            </div>
+
+
+            <div class="box2">
+                <div>
+                <div class="name" id="contactus"><h2>Contact Info</h2></div>
+
+                <div class="contact">Email Address : coffeeshop@gmail.com</div>
+                <div class="contact">Phone No : 8889997770</div>
+                <div class="contact">Telephone No : 0276-001122</div>
+
+
+
+                </div>
+                
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

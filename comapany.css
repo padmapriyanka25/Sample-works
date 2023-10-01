@@ -1,0 +1,60 @@
+/* Styling for the form container */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: darkseagreen;
+}
+
+/* Styling for the form heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:crimson;
+}
+
+/* Styling for the form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Styling for the form inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styling for the form declaration checkbox and label */
+#declaration {
+    margin-right: 5px;
+}
+
+/* Styling for the submit button */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
